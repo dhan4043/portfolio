@@ -2,6 +2,7 @@
   "name": "portfolio",
   "type": "module",
   "version": "0.0.1",
+  "private": true,
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -10,6 +11,15 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^4.10.2"
+    "@astrojs/mdx": "^3.1.0",
+    "@astrojs/rss": "^4.0.6",
+    "@astrojs/sitemap": "^3.1.5",
+    "@astrojs/tailwind": "^5.1.0",
+    "@tailwindcss/typography": "github:tailwindcss/typography",
+    "astro": "^4.10.2",
+    "daisyui": "^4.12.2",
+    "dayjs": "^1.11.11",
+    "sharp": "^0.33.4",
+    "tailwindcss": "^3.4.4"
   }
 }
