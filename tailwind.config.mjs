@@ -1,8 +1,12 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
 	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
 	theme: {
 		extend: {},
 	},
-	plugins: [],
+	plugins: [require("@tailwindcss/typography"), require("daisyui")],
+  daisyui: {
+    themes: false, // light and dark theme only 
+    logs: false
+  }
 }
