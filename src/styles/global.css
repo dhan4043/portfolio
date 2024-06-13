@@ -1,4 +1,11 @@
-// Global styles
+/* Global styles */
+@import '@fontsource/ia-writer-mono/400-italic.css';
+@import '@fontsource/ia-writer-mono/700-italic.css';
+@import '@fontsource/ia-writer-mono/400.css';
+@import '@fontsource/ia-writer-mono/700.css';
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/700.css';
+
 .time-line-container>div:last-child .education__time>.education__line {
     display: none;
 }
